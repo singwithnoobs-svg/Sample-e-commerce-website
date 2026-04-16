@@ -11,6 +11,8 @@ const Home = () => {
       <Brands />
       <div className="md:w-full md:max-w-full xs:mx-2  sm:mx-auto ">
         <div className="prose prose-2xl">
+          <h2 className="text-2xl font-bold" >Best sellers</h2>
+        </Brands>
           <BestSellers />
         </div>
         <div className="child:ring-white">
